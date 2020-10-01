@@ -1,0 +1,22 @@
+.container-fluid{
+    display: flex;
+}
+
+.section{
+  flex:1;
+}
+
+#btnImportant{
+    font-size: 20px;
+    color:rgb(55, 167, 161);
+    cursor: pointer;
+}
+
+#btnImportant.active{   
+    color:rgb(55, 167, 161); 
+}
+
+.control{
+    display: block;
+}
+

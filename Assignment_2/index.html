@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calendar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css
+    ">
+    <link rel="stylesheet" href="./styles/app.css">
+</head>
+<!-- Header -->
+<div class="jumbotron">
+    <h1 class="display-3">TODO</h1>
+    <p class="lead">TODO is smart task list for everyday use. It is truly usable with great user experience. No matter who you are and what you do - you will be better organized!</p>
+    <hr class="my-4">
+    <p>Start to schedule a task.</p>
+    <button id="btnShow" class="btn btn-small btn-info"> <i class="far fa-eye"></i>Show details</button>
+  </div>
+<div class="container">
+    <div class="container-fluid">
+    
+        <div id="secList" class="section">
+            <h1>List of Tasks</h1>
+        
+           
+        </div>
+        <div id="secForm" class="section invisible">
+            <form>
+                <div class="form-group">
+                    <label>Details / Capture</label>             
+                    <input type="text" id="txtTitle" class="control form-control" placeholder="Task tittle">
+                    </div>
+                    <div class="control">
+                        Is it important?
+                        <i id="btnImportant"  class="far fa-star"></i>
+                    </div>
+                    <div class="form-group">
+                        <label>Due Date</label>             
+                        <input type="date" id="txtDate" class="control form-control" placeholder="Due date">
+                    </div>
+                    <div class="form-group">
+                        <label>Notification Text</label>             
+                        <input type="text" id="txtAlert" class="control form-control" placeholder="Notification text">
+                    </div>
+                    <div class="form-group">
+                        <label>Task Location</label>             
+                        <input type="text" id="txtLocation" class="control form-control" placeholder="Task Location">
+                    </div>
+                    <button id="btnSave" class="btn btn-info">Save Task</button>             
+            </form>
+        </div>
+    
+    </div>
+</div>
+<!-- Footer -->
+   
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./scripts/task.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
