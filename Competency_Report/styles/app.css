@@ -1,0 +1,56 @@
+.container-fluid{
+    display: flex;
+}
+
+.section{
+  flex:1;
+}
+
+#btnImportant{
+    font-size: 20px;
+    color:rgb(55, 167, 161);
+    cursor: pointer;
+}
+
+#btnImportant.active{   
+    color:rgb(55, 167, 161); 
+}
+
+.control{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.form-group {
+    margin-left: 1rem;
+}
+.line
+{
+    margin-right: 50px;
+    
+  
+}
+.containerData{
+    
+    background-color: rgb(239, 240, 240);
+    padding: 10px 15px;
+    margin: 10px 0 15px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 10% 40% 30% 20%;
+    grid-template-rows: minmax(auto, auto);   
+   
+}
+
+.containerData:hover{
+    
+    background-color: rgb(198, 199, 199);
+
+   
+}
+
+
